@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/filmListFragment">
+<!--    <fragment-->
+<!--        android:id="@+id/informationFragment"-->
+<!--        android:name="com.example.film.ui.fragments.film_detail.fragment.InformationFragment"-->
+<!--        android:label="fragment_information"-->
+<!--        tools:layout="@layout/fragment_information" />-->
+<!--    <fragment-->
+<!--        android:id="@+id/listRecyclerFragment"-->
+<!--        android:name="com.example.film.ui.fragments.film_list.fragment.ListRecyclerFragment"-->
+<!--        android:label="fragment_list_recycler"-->
+<!--        tools:layout="@layout/fragment_list_recycler" />-->
+<!--    <fragment-->
+<!--        android:id="@+id/roomFragment"-->
+<!--        android:name="com.example.film.ui.room_fragment.RoomFragment"-->
+<!--        android:label="fragment_room"-->
+<!--        tools:layout="@layout/fragment_room" />-->
+
+
+    <fragment
+        android:id="@+id/filmListFragment"
+        android:name="com.example.film.ui.fragments.film_list.fragment.FilmListFragment"
+        android:label="fragment_film_list"
+        tools:layout="@layout/fragment_film_list" />
+    <fragment
+        android:id="@+id/filmDetailFragment"
+        android:name="com.example.film.ui.fragments.film_detail.FilmDetailFragment"
+        android:label="fragment_film_detail"
+        tools:layout="@layout/fragment_film_detail" />
+    <fragment
+        android:id="@+id/roomFragment"
+        android:name="com.example.film.ui.fragments.roomFragment.RoomFragment"
+        android:label="fragment_room"
+        tools:layout="@layout/fragment_room" />
+</navigation>
